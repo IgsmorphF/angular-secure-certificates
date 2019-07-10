@@ -1,1 +1,38 @@
 /* Add application styles & imports to this file! */
+body {
+  background-color: white;
+}
+h1 {
+  color: black;
+  float:left ;
+}
+h2 {
+  background-color:rgb(200,200,200);
+}
+
+h4 {
+  text-align:center;
+  color: red;
+  border-style: outset;
+}
+h5 {
+  text-align: center
+}
+p {
+  font-family: verdana;
+  font-size: 12px;
+}
+#contact {
+  text-align: center;
+}
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
