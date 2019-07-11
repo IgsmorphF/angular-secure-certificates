@@ -36,6 +36,41 @@ ul {
 #contact {
   text-align: center;
 }
+div.headersection {
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  margin: 0;
+}
+div.main-container {
+  width: 100%;
+  padding: 10px;
+  border: 5px solid green;
+  margin: 0;
+}
+div.body {
+   width: 80%;
+  padding: 10px;
+  border: 5px solid red;
+  margin: 0;
+}
+div.main-menu {
+  float: right;
+  width: 50px;
+  padding: 10px;
+  border: 5px solid blue;
+  margin: 0;
+}
+div.footer {
+  background-color: lightgrey;
+  width: 100%;
+  padding: 5px;
+  border: 0;
+  margin: 0;
+}
+
+
+
 p.dotted {border-style: dotted;}
 p.dashed {border-style: dashed;}
 p.solid {border-style: solid;}
