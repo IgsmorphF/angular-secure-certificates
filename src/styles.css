@@ -29,6 +29,23 @@ p {
   font-size: 12px;
   margin: 10px;
 }
+p.main-menu {
+  font-family: verdana;
+  font-size: 20px;
+  margin: 10px 0px 10px 0px;
+  line-height: 1.8;
+}
+table.main-menu {
+  width: 100%;
+}
+tr.main-menu:hover {background-color: lightgray}
+td.main-menu {
+  border: 1px solid black;
+  font-family: verdana;
+  font-size: 20px;
+  margin: 10px 0px 10px 0px;
+  line-height: 1.8;
+}
 ul {
   font-family: verdana;
   font-size: 12px;
@@ -43,22 +60,24 @@ div.headersection {
   margin: 0;
 }
 div.main-container {
+  overflow: auto;
   width: 100%;
-  padding: 10px;
-  border: 5px solid green;
+  padding: 2px;
+  border: 2px solid green;
   margin: 0;
 }
 div.body {
-   width: 80%;
+  float: left;
+  width: 65%;
   padding: 10px;
-  border: 5px solid red;
+  border: 2px solid red;
   margin: 0;
 }
 div.main-menu {
   float: right;
-  width: 50px;
-  padding: 10px;
-  border: 5px solid blue;
+  width: 18%;
+  padding: 0px 0px 0px 10px;
+  border: 2px solid blue;
   margin: 0;
 }
 div.footer {
