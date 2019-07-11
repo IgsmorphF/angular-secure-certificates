@@ -46,12 +46,12 @@ tr.main-menu:hover {
 }
 td.main-menu {
   font-weight: bold;
-  
   font-family: verdana;
   color: white;
   font-size: 20px;
   margin: 10px 0px 10px 0px;
   line-height: 1.8;
+  padding-left:5px;
 }
 ul {
   font-family: verdana;
@@ -70,18 +70,18 @@ div.main-container {
   overflow: auto;
   width: 100%;
   padding: 2px;
-  border: 2px solid green;
+  border: 2px solid white;
   margin: 0;
 }
 div.body {
   float: left;
-  width: 50%;
+  width: 80%;
   padding: 10px;
-  border: 2px solid red;
+  border: 2px solid white;
   margin: 0;
 }
 div.main-menu {
-  float: right;
+  float: left;
   padding: 0px 0px 0px 10px;
   border: 2px solid white;
   margin: 0;
