@@ -38,12 +38,15 @@ p.main-menu {
 }
 table.main-menu {
   width: 100%;
-  background-color: darkblue
+  background-color: darkblue;
+  margin-top:20px;
 }
-tr.main-menu:hover {background-color: gray}
+tr.main-menu:hover {
+  background-color: gray;
+}
 td.main-menu {
   font-weight: bold;
-  border: 1px solid white;
+  
   font-family: verdana;
   color: white;
   font-size: 20px;
@@ -80,7 +83,7 @@ div.body {
 div.main-menu {
   float: right;
   padding: 0px 0px 0px 10px;
-  border: 2px solid blue;
+  border: 2px solid white;
   margin: 0;
 }
 div.footer {
