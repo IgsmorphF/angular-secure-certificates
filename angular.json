@@ -23,7 +23,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/SecureCertificates/resources/css/styles.css"
             ],
             "scripts": []
           },
